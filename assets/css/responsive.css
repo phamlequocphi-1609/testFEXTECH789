@@ -1,0 +1,238 @@
+@media (min-width: 740px) and (max-width: 1023px) {
+  .outline__left {
+    width: 600px;
+  }
+  .header {
+    display: none;
+  }
+  .header__tablet {
+    display: block;
+    padding-top: 29px;
+  }
+  .header__tablet__nav__bar {
+    width: 24px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin-left: 28px;
+    cursor: pointer;
+    position: relative;
+  }
+  .header__tablet__menu {
+    position: absolute;
+    left: -14px;
+    top: 50px;
+    z-index: 10;
+    width: 200px;
+    background-color: #ffff;
+  }
+  .header__tablet__menu__list {
+    padding-left: 0px;
+  }
+  .header__tablet__menu__list li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+  }
+  .header__tablet__menu__list li p {
+    margin-bottom: 0px;
+  }
+
+  .showMenu {
+    display: none;
+  }
+  .header__tablet__menu__heading {
+    margin-bottom: 0px;
+    padding: 12px;
+    color: #000;
+    font-weight: 700;
+  }
+  .hero__content {
+    width: 300px;
+    bottom: 113px;
+    left: 74px;
+    padding: 43px;
+  }
+  .hero__content h1 {
+    font-size: 29px;
+  }
+  .hero__content a {
+    padding: 5px 68px;
+  }
+  .hero__content p {
+    margin-bottom: 80px;
+  }
+  .info__box {
+    width: 200px;
+    top: 339.64px;
+    right: 76px;
+  }
+  .inspirations {
+    padding: 53px 32px 35px 32px;
+  }
+  .image__gallery {
+    display: none;
+  }
+  .image__gallery__tablet {
+    display: block;
+  }
+  .image__gallery__tablet__item {
+    margin-bottom: 20px;
+    height: 300px;
+  }
+  .image__gallery__tablet__item img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+  }
+  .funiro__furniture__title {
+    margin-bottom: 10px;
+  }
+  .footer {
+    margin-top: 87px;
+  }
+  .footer__bottom__form input {
+    max-width: 142px;
+  }
+}
+
+@media (max-width: 739px) {
+  .header {
+    display: none;
+  }
+  .outline__left {
+    width: 218px;
+  }
+  .header__tablet {
+    display: block;
+    padding-top: 29px;
+  }
+  .header__tablet__nav__bar {
+    width: 24px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin-left: 12px;
+    cursor: pointer;
+    position: relative;
+  }
+  .header__tablet__menu {
+    position: absolute;
+    left: -14px;
+    top: 50px;
+    z-index: 10;
+    width: 200px;
+    background-color: #ffff;
+  }
+  .header__tablet__menu__list {
+    padding-left: 0px;
+  }
+  .header__tablet__menu__list li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+  }
+  .header__tablet__menu__list li p {
+    margin-bottom: 0px;
+  }
+  .showMenu {
+    display: none;
+  }
+  .header__tablet__menu__heading {
+    margin-bottom: 0px;
+    padding: 12px;
+    color: #000;
+    font-weight: 700;
+  }
+  .slidebar {
+    padding: 24px 26px 0px 26px;
+  }
+  .arrow__right {
+    right: -21px;
+  }
+  .arrow__left {
+    left: -18px;
+  }
+  .add__to__cart__link {
+    left: 80px;
+  }
+  .inspirations {
+    flex-direction: column;
+    padding: 28px;
+  }
+  .inspirations__left {
+    padding-top: 30px;
+    margin-bottom: 50px;
+  }
+  .inspiration__right img {
+    width: 100%;
+  }
+  .inspiration__right__content {
+    top: 225px;
+    left: 12px;
+    max-width: 223px;
+  }
+  .inspiration__right__content__arrow {
+    right: 26px;
+    top: 307px;
+  }
+  .slidebar__img__index img {
+    object-fit: cover;
+  }
+
+  .hero__content {
+    left: 11px;
+    max-width: 300px;
+    padding: 26px;
+    bottom: 238px;
+  }
+  .hero__content h1 {
+    font-size: 30px;
+  }
+  .hero__content p {
+    margin-bottom: 20px;
+  }
+  .hero__content a {
+    padding: 4px 77px;
+  }
+  .info__box {
+    right: 15px;
+  }
+
+  .image__gallery {
+    display: none;
+  }
+  .image__gallery__tablet {
+    display: block;
+  }
+  .image__gallery__tablet__item {
+    margin-bottom: 20px;
+    height: 300px;
+  }
+  .image__gallery__tablet__item img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+  }
+  .funiro__furniture__title {
+    margin-bottom: 10px;
+  }
+  .footer {
+    margin-top: 87px;
+  }
+  .footer__bottom__form input {
+    max-width: 142px;
+  }
+  .footer__bottom__form {
+    margin-bottom: 20px;
+  }
+  .header__nav__searchbar svg {
+    margin: 0 10px;
+  }
+}

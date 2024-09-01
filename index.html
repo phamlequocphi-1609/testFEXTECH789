@@ -1,0 +1,1146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/fonts/fontawesome-free-6.4.0-web/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="app">
+      <div class="outline">
+        <div class="outline__left"></div>
+        <div class="outline__right"></div>
+      </div>
+      <header class="header">
+        <div class="container">
+          <nav class="header__nav">
+            <div class="row">
+              <div class="col-5 col-md-5">
+                <div
+                  class="header__nav__left d-flex justify-content-between h-100 align-items-center"
+                >
+                  <div class="header__nav__heading">
+                    <p class="">Funiro.</p>
+                  </div>
+                  <div class="header__nav__menu">
+                    <ul
+                      class="header__nav__menu__list d-flex justify-content-evenly"
+                    >
+                      <li>
+                        <p>Product</p>
+                        <svg
+                          class="mt-0.25"
+                          width="20"
+                          height="20"
+                          viewBox="0 0 20 20"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M15.8333 7.5L10 13.3333L4.16668 7.5"
+                            stroke="#3A3A3A"
+                            stroke-width="1.8"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                        </svg>
+                      </li>
+                      <li>
+                        <p>Room</p>
+                        <svg
+                          width="20"
+                          height="20"
+                          viewBox="0 0 20 20"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M15.8333 7.5L10 13.3333L4.16668 7.5"
+                            stroke="#3A3A3A"
+                            stroke-width="1.8"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                        </svg>
+                      </li>
+                      <li class="pe-0">
+                        <p>Inspirations</p>
+                        <svg
+                          width="20"
+                          height="20"
+                          viewBox="0 0 20 20"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M15.8333 7.5L10 13.3333L4.16668 7.5"
+                            stroke="#3A3A3A"
+                            stroke-width="1.8"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                        </svg>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4 col-md-4">
+                <div class="header__nav__searchbar d-flex align-items-center">
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M16.6667 16.6666L12.5802 12.5801M12.5802 12.5801C13.5604 11.5999 14.1667 10.2457 14.1667 8.74992C14.1667 5.75838 11.7415 3.33325 8.75 3.33325C5.75846 3.33325 3.33333 5.75838 3.33333 8.74992C3.33333 11.7415 5.75846 14.1666 8.75 14.1666C10.2458 14.1666 11.5999 13.5603 12.5802 12.5801Z"
+                      stroke="#333333"
+                      stroke-width="1.8"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  <input
+                    type="text"
+                    placeholder="Search for minimalist chair"
+                    class=""
+                  />
+                </div>
+              </div>
+              <div class="col-3 col-md-3">
+                <div class="header__nav__right">
+                  <ul
+                    class="header__nav__right__list d-flex justify-content-evenly align-items-center"
+                  >
+                    <li>
+                      <svg
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M11.9996 21.054C-8 9.99991 5.99999 -2.00009 11.9996 5.58797C18 -2.00009 32 9.99991 11.9996 21.054Z"
+                          stroke="#262F56"
+                          stroke-width="1.8"
+                        />
+                      </svg>
+                    </li>
+                    <li>
+                      <svg
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M1 2.5H2.65424C3.13263 2.5 3.37183 2.5 3.56628 2.58674C3.73771 2.66321 3.88415 2.78638 3.98886 2.94217C4.10763 3.11888 4.14862 3.35454 4.23058 3.82585L4.6087 6M4.6087 6L5.49173 11.0774C5.67091 12.1077 5.7605 12.6228 6.02583 12.9939C6.25945 13.3207 6.58606 13.5695 6.96311 13.708C7.39133 13.8654 7.91176 13.815 8.95264 13.7143L18.614 12.7793C19.6298 12.681 20.1378 12.6318 20.5221 12.4033C20.8653 12.1993 21.1395 11.8972 21.3095 11.536C21.5 11.1314 21.5 10.6211 21.5 9.6005V9.6005C21.5 8.51582 21.5 7.97348 21.2922 7.55394C21.1068 7.17971 20.809 6.8729 20.4404 6.67654C20.0272 6.4564 19.4851 6.44036 18.4009 6.40826L4.6087 6Z"
+                          stroke="#262F56"
+                          stroke-width="1.8"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                        <circle
+                          cx="8.5"
+                          cy="19"
+                          r="2"
+                          stroke="#262F56"
+                          stroke-width="1.8"
+                        />
+                        <circle
+                          cx="18"
+                          cy="19"
+                          r="2"
+                          stroke="#262F56"
+                          stroke-width="1.8"
+                        />
+                      </svg>
+                    </li>
+                    <li>
+                      <img
+                        class="rounded-circle"
+                        width="40px"
+                        height="40px"
+                        src="./assets/images/ảnh tôii 1.jpg"
+                        alt=""
+                      />
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <!-- Tablet -->
+      <header class="header__tablet">
+        <div class="container">
+          <nav class="header__tablet__nav">
+            <div class="row">
+              <div class="col-2">
+                <div class="header__tablet__nav__bar">
+                  <svg
+                    class="menubar"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 448 512"
+                  >
+                    <path
+                      d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"
+                    />
+                  </svg>
+                  <div class="header__tablet__menu showMenu">
+                    <p class="header__tablet__menu__heading">Funiro.</p>
+                    <ul class="header__tablet__menu__list">
+                      <li>
+                        <p>Product</p>
+                        <svg
+                          class="mt-0.25"
+                          width="20"
+                          height="20"
+                          viewBox="0 0 20 20"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M15.8333 7.5L10 13.3333L4.16668 7.5"
+                            stroke="#3A3A3A"
+                            stroke-width="1.8"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                        </svg>
+                      </li>
+                      <li>
+                        <p>Room</p>
+                        <svg
+                          width="20"
+                          height="20"
+                          viewBox="0 0 20 20"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M15.8333 7.5L10 13.3333L4.16668 7.5"
+                            stroke="#3A3A3A"
+                            stroke-width="1.8"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                        </svg>
+                      </li>
+                      <li>
+                        <p>Inspirations</p>
+                        <svg
+                          width="20"
+                          height="20"
+                          viewBox="0 0 20 20"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M15.8333 7.5L10 13.3333L4.16668 7.5"
+                            stroke="#3A3A3A"
+                            stroke-width="1.8"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                        </svg>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="header__nav__searchbar d-flex align-items-center">
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M16.6667 16.6666L12.5802 12.5801M12.5802 12.5801C13.5604 11.5999 14.1667 10.2457 14.1667 8.74992C14.1667 5.75838 11.7415 3.33325 8.75 3.33325C5.75846 3.33325 3.33333 5.75838 3.33333 8.74992C3.33333 11.7415 5.75846 14.1666 8.75 14.1666C10.2458 14.1666 11.5999 13.5603 12.5802 12.5801Z"
+                      stroke="#333333"
+                      stroke-width="1.8"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  <input
+                    type="text"
+                    placeholder="Search for minimalist chair"
+                    class=""
+                  />
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="header__nav__right">
+                  <ul
+                    class="header__nav__right__list d-flex justify-content-evenly align-items-center"
+                  >
+                    <li>
+                      <svg
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M11.9996 21.054C-8 9.99991 5.99999 -2.00009 11.9996 5.58797C18 -2.00009 32 9.99991 11.9996 21.054Z"
+                          stroke="#262F56"
+                          stroke-width="1.8"
+                        />
+                      </svg>
+                    </li>
+                    <li>
+                      <svg
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M1 2.5H2.65424C3.13263 2.5 3.37183 2.5 3.56628 2.58674C3.73771 2.66321 3.88415 2.78638 3.98886 2.94217C4.10763 3.11888 4.14862 3.35454 4.23058 3.82585L4.6087 6M4.6087 6L5.49173 11.0774C5.67091 12.1077 5.7605 12.6228 6.02583 12.9939C6.25945 13.3207 6.58606 13.5695 6.96311 13.708C7.39133 13.8654 7.91176 13.815 8.95264 13.7143L18.614 12.7793C19.6298 12.681 20.1378 12.6318 20.5221 12.4033C20.8653 12.1993 21.1395 11.8972 21.3095 11.536C21.5 11.1314 21.5 10.6211 21.5 9.6005V9.6005C21.5 8.51582 21.5 7.97348 21.2922 7.55394C21.1068 7.17971 20.809 6.8729 20.4404 6.67654C20.0272 6.4564 19.4851 6.44036 18.4009 6.40826L4.6087 6Z"
+                          stroke="#262F56"
+                          stroke-width="1.8"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                        <circle
+                          cx="8.5"
+                          cy="19"
+                          r="2"
+                          stroke="#262F56"
+                          stroke-width="1.8"
+                        />
+                        <circle
+                          cx="18"
+                          cy="19"
+                          r="2"
+                          stroke="#262F56"
+                          stroke-width="1.8"
+                        />
+                      </svg>
+                    </li>
+                    <li>
+                      <img
+                        class="rounded-circle"
+                        width="40px"
+                        height="40px"
+                        src="./assets/images/ảnh tôii 1.jpg"
+                        alt=""
+                      />
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+
+      <div class="slidebar">
+        <div class="slidebar__img">
+          <div class="slidebar__img__index">
+            <img class="w-100" src="./assets/images/1528 1.png" alt="" />
+            <img class="w-100" src="./assets/images/Rectangle 48.png" alt="" />
+            <img class="w-100" src="./assets/images/1528 1.png" alt="" />
+          </div>
+          <div class="slidebar__content">
+            <div class="hero__content">
+              <h1>High-Quality Furniture Just For You</h1>
+              <p>
+                Our furniture is made from selected and best quality materials
+                that are suitable for your dream home
+              </p>
+              <a href="#">Shop Now</a>
+            </div>
+            <div class="info__box">
+              <div class="infor__box__content">
+                <p class="info__box__heading">Bohauss</p>
+                <p class="info__box__description">Luxury big sofa 2-seat</p>
+                <p class="info__box__price">
+                  Rp 17.000.000
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <path
+                      d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"
+                    />
+                  </svg>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="arrow__left">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+              <path
+                d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"
+              />
+            </svg>
+          </div>
+          <div class="arrow__right">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+              <path
+                d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+      <section class="content">
+        <div class="feature">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="group">
+                  <img
+                    class="group__img"
+                    src="./assets/images/trophy.png"
+                    alt=""
+                  />
+                  <div class="group__text">
+                    <p class="group__text__heading">High Quality</p>
+                    <span class="group__text__content"
+                      >crafted from top materials</span
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="group">
+                  <img
+                    class="group__img"
+                    src="./assets/images/guarantee.png"
+                    alt=""
+                  />
+                  <div class="group__text">
+                    <p class="group__text__heading">Warrany Protection</p>
+                    <span class="group__text__content">Over 2 years</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="group">
+                  <img
+                    class="group__img"
+                    src="./assets/images/shipping.png"
+                    alt=""
+                  />
+                  <div class="group__text">
+                    <p class="group__text__heading">Free Shipping</p>
+                    <span class="group__text__content">Order over 150 $</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="group">
+                  <img
+                    class="group__img"
+                    src="./assets/images/customer-support.png"
+                    alt=""
+                  />
+                  <div class="group__text">
+                    <p class="group__text__heading">24 / 7 Support</p>
+                    <span class="group__text__content">Dedicated support</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="our__product">
+          <h3 class="our__product__heading text-center">Our Products</h3>
+          <div class="container">
+            <div class="row">
+              <div class="our__product__container">
+                <div class="row">
+                  <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="our__product__item">
+                      <div class="our__product__top">
+                        <img src="./assets/images/image 1.png" alt="" />
+                      </div>
+                      <div class="our__product__description">
+                        <div class="our__product__description__name">
+                          <h5 class="our__product__description__name__heading">
+                            Syltherine
+                          </h5>
+                          <p class="our__product__description__name__text">
+                            Stylish cafe chair
+                          </p>
+                          <div class="our__product__price">
+                            <p class="our__product__price__current">
+                              Rp 2.500.000
+                            </p>
+                            <p class="our__product__price__before">
+                              Rp 3.500.000
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="product__sale">
+                        <p>-30%</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="our__product__item">
+                      <div class="our__product__top">
+                        <img src="./assets/images/image 2.png" alt="" />
+                      </div>
+                      <div class="our__product__description">
+                        <div class="our__product__description__name">
+                          <h5 class="our__product__description__name__heading">
+                            Leviosa
+                          </h5>
+                          <p class="our__product__description__name__text">
+                            Stylish cafe chair
+                          </p>
+                          <div class="our__product__price">
+                            <p class="our__product__price__current">
+                              Rp 2.500.000
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="add__to__cart">
+                        <a class="add__to__cart__link" href="">Add to cart</a>
+                        <div class="product__share__like">
+                          <div class="product__share">
+                            <img
+                              src="./assets/images/gridicons_share.png"
+                              alt=""
+                            />
+                            <p>Share</p>
+                          </div>
+                          <div class="product__like">
+                            <img src="./assets/images/Heart.png" alt="" />
+                            <p>Like</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="overlay__product"></div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="our__product__item">
+                      <div class="our__product__top">
+                        <img src="./assets/images/image 3.png" alt="" />
+                      </div>
+                      <div class="our__product__description">
+                        <div class="our__product__description__name">
+                          <h5 class="our__product__description__name__heading">
+                            Lolito
+                          </h5>
+                          <p class="our__product__description__name__text">
+                            Luxury big sofa
+                          </p>
+                          <div class="our__product__price">
+                            <p class="our__product__price__current">
+                              Rp 7.000.000
+                            </p>
+                            <p class="our__product__price__before">
+                              Rp 14.000.000
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="product__sale">
+                        <p>-30%</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="our__product__item">
+                      <div class="our__product__top">
+                        <img src="./assets/images/image 4.png" alt="" />
+                      </div>
+                      <div class="our__product__description">
+                        <div class="our__product__description__name">
+                          <h5 class="our__product__description__name__heading">
+                            Respira
+                          </h5>
+                          <p class="our__product__description__name__text">
+                            Minimalist fan
+                          </p>
+                          <div class="our__product__price">
+                            <p class="our__product__price__current">
+                              Rp 500.000
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="product__new">
+                        <p>New</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="our__product__container">
+                <div class="row">
+                  <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="our__product__item">
+                      <div class="our__product__top">
+                        <img src="./assets/images/image 5.png" alt="" />
+                      </div>
+                      <div class="our__product__description">
+                        <div class="our__product__description__name">
+                          <h5 class="our__product__description__name__heading">
+                            Grifo
+                          </h5>
+                          <p class="our__product__description__name__text">
+                            Night lamp
+                          </p>
+                          <div class="our__product__price">
+                            <p class="our__product__price__current">
+                              Rp 1.500.000
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="our__product__item">
+                      <div class="our__product__top">
+                        <img src="./assets/images/image 6.png" alt="" />
+                      </div>
+                      <div class="our__product__description">
+                        <div class="our__product__description__name">
+                          <h5 class="our__product__description__name__heading">
+                            Muggo
+                          </h5>
+                          <p class="our__product__description__name__text">
+                            Small mug
+                          </p>
+                          <div class="our__product__price">
+                            <p class="our__product__price__current">
+                              Rp 150.000
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="product__new">
+                        <p>New</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="our__product__item">
+                      <div class="our__product__top">
+                        <img src="./assets/images/image 7.png" alt="" />
+                      </div>
+                      <div class="our__product__description">
+                        <div class="our__product__description__name">
+                          <h5 class="our__product__description__name__heading">
+                            Pingky
+                          </h5>
+                          <p class="our__product__description__name__text">
+                            Cute bed set
+                          </p>
+                          <div class="our__product__price">
+                            <p class="our__product__price__current">
+                              Rp 7.000.000
+                            </p>
+                            <p class="our__product__price__before">
+                              Rp 14.000.000
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="product__sale">
+                        <p>-30%</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="our__product__item">
+                      <div class="our__product__top">
+                        <img src="./assets/images/image 8.png" alt="" />
+                      </div>
+                      <div class="our__product__description">
+                        <div class="our__product__description__name">
+                          <h5 class="our__product__description__name__heading">
+                            Potty
+                          </h5>
+                          <p class="our__product__description__name__text">
+                            Minimalist flower pot
+                          </p>
+                          <div class="our__product__price">
+                            <p class="our__product__price__current">
+                              Rp 500.000
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="product__new">
+                        <p>New</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="our__product__showMore" href="#">Show More</a>
+        </div>
+        <div class="inspirations">
+          <div class="inspirations__left">
+            <h2>50+ Beautiful rooms inspiration</h2>
+            <p>
+              Our designer already made a lot of beautiful prototipe of rooms
+              that inspire you
+            </p>
+            <a class="inspirations__left__link" href="#">Explore More</a>
+          </div>
+          <div class="inspiration__right">
+            <img src="./assets/images/insparitions.png" alt="" />
+            <div class="inspiration__right__content">
+              <div class="inspiration__right__content__top">
+                <p class="me-2">01</p>
+                <p class="border__content me-2"></p>
+                <p class="me-2">Bed Room</p>
+              </div>
+              <div class="inspiration__right__content__heading">
+                <p>Inner Peace</p>
+              </div>
+            </div>
+            <div class="inspiration__right__content__arrow">
+              <img src="./assets/images/Vector 1.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="tip__tricks">
+          <h3 class="tip__tricks__heading text-center">Tips & Tricks</h3>
+          <div class="container position-relative">
+            <div class="tip__tricks__content">
+              <div class="col-12">
+                <div class="tip__tricks__items__container">
+                  <div class="row">
+                    <div class="col-lg-4">
+                      <div class="tip__tricks__items">
+                        <div class="tip__tricks__items__top">
+                          <img src="./assets/images/image 9.png" alt="" />
+                          <div class="tip__tricks__items__description">
+                            <h5 class="tip__tricks__items__heading">
+                              How to create a living room to love
+                            </h5>
+                            <span class="tip__tricks__items__date"
+                              >20 Jan 2020</span
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="tip__tricks__items">
+                        <div class="tip__tricks__items__top">
+                          <img src="./assets/images/image 10.png" alt="" />
+                          <div class="tip__tricks__items__description">
+                            <h5 class="tip__tricks__items__heading">
+                              Solution for clean look working space
+                            </h5>
+                            <span class="tip__tricks__items__date"
+                              >10 Jan 2020</span
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="tip__tricks__items">
+                        <div class="tip__tricks__items__top">
+                          <img src="./assets/images/image 11.png" alt="" />
+                          <div class="tip__tricks__items__description">
+                            <h5 class="tip__tricks__items__heading">
+                              Make your cooking activity more fun with good
+                              setup
+                            </h5>
+                            <span class="tip__tricks__items__date"
+                              >20 Jan 2020</span
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="tip__tricks__items__container">
+                  <div class="row">
+                    <div class="col-lg-4">
+                      <div class="tip__tricks__items">
+                        <div class="tip__tricks__items__top">
+                          <img src="./assets/images/image 10.png" alt="" />
+                          <div class="tip__tricks__items__description">
+                            <h5 class="tip__tricks__items__heading">
+                              How to create a living room to love
+                            </h5>
+                            <span class="tip__tricks__items__date"
+                              >20 Jan 2020</span
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="tip__tricks__items">
+                        <div class="tip__tricks__items__top">
+                          <img src="./assets/images/image 9.png" alt="" />
+                          <div class="tip__tricks__items__description">
+                            <h5 class="tip__tricks__items__heading">
+                              Solution for clean look working space
+                            </h5>
+                            <span class="tip__tricks__items__date"
+                              >10 Jan 2020</span
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="tip__tricks__items">
+                        <div class="tip__tricks__items__top">
+                          <img src="./assets/images/image 11.png" alt="" />
+                          <div class="tip__tricks__items__description">
+                            <h5 class="tip__tricks__items__heading">
+                              Make your cooking activity more fun with good
+                              setup
+                            </h5>
+                            <span class="tip__tricks__items__date"
+                              >20 Jan 2020</span
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="tip__tricks__items__container">
+                  <div class="row">
+                    <div class="col-lg-4">
+                      <div class="tip__tricks__items">
+                        <div class="tip__tricks__items__top">
+                          <img src="./assets/images/image 9.png" alt="" />
+                          <div class="tip__tricks__items__description">
+                            <h5 class="tip__tricks__items__heading">
+                              How to create a living room to love
+                            </h5>
+                            <span class="tip__tricks__items__date"
+                              >20 Jan 2020</span
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="tip__tricks__items">
+                        <div class="tip__tricks__items__top">
+                          <img src="./assets/images/image 10.png" alt="" />
+                          <div class="tip__tricks__items__description">
+                            <h5 class="tip__tricks__items__heading">
+                              Solution for clean look working space
+                            </h5>
+                            <span class="tip__tricks__items__date"
+                              >10 Jan 2020</span
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="tip__tricks__items">
+                        <div class="tip__tricks__items__top">
+                          <img src="./assets/images/image 11.png" alt="" />
+                          <div class="tip__tricks__items__description">
+                            <h5 class="tip__tricks__items__heading">
+                              Make your cooking activity more fun with good
+                              setup
+                            </h5>
+                            <span class="tip__tricks__items__date"
+                              >20 Jan 2020</span
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="tip__tricks__items__container">
+                  <div class="row">
+                    <div class="col-lg-4">
+                      <div class="tip__tricks__items">
+                        <div class="tip__tricks__items__top">
+                          <img src="./assets/images/image 9.png" alt="" />
+                          <div class="tip__tricks__items__description">
+                            <h5 class="tip__tricks__items__heading">
+                              How to create a living room to love
+                            </h5>
+                            <span class="tip__tricks__items__date"
+                              >20 Jan 2020</span
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="tip__tricks__items">
+                        <div class="tip__tricks__items__top">
+                          <img src="./assets/images/image 10.png" alt="" />
+                          <div class="tip__tricks__items__description">
+                            <h5 class="tip__tricks__items__heading">
+                              Solution for clean look working space
+                            </h5>
+                            <span class="tip__tricks__items__date"
+                              >10 Jan 2020</span
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="tip__tricks__items">
+                        <div class="tip__tricks__items__top">
+                          <img src="./assets/images/image 11.png" alt="" />
+                          <div class="tip__tricks__items__description">
+                            <h5 class="tip__tricks__items__heading">
+                              Make your cooking activity more fun with good
+                              setup
+                            </h5>
+                            <span class="tip__tricks__items__date"
+                              >20 Jan 2020</span
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tip__tricks__nav">
+              <div
+                class="tip__tricks__arrow tricks__left tip__tricks__arrow--left"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                  <path
+                    d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"
+                  />
+                </svg>
+              </div>
+              <div
+                class="tip__tricks__arrow tricks__right tip__tricks__arrow--right"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                  <path
+                    d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div class="tip__tricks__dots">
+              <div class="tip__tricks__dot__point">
+                <span class="tip__tricks__dot"></span>
+              </div>
+              <div class="tip__tricks__dot__point click__active">
+                <span class="tip__tricks__dot active"></span>
+              </div>
+              <div class="tip__tricks__dot__point">
+                <span class="tip__tricks__dot"></span>
+              </div>
+              <div class="tip__tricks__dot__point">
+                <span class="tip__tricks__dot"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="funiro__furniture">
+          <div class="funiro__furniture__title">
+            <span class="funiro__furniture__title__top"
+              >Share your setup with</span
+            >
+            <h2 class="funiro__furniture__title__bottom">#FuniroFurniture</h2>
+          </div>
+          <div class="image__gallery">
+            <img
+              class="image__gallery__first"
+              src="./assets/images/image 12.png"
+              alt=""
+            />
+            <img src="./assets/images/image 13.png" alt="" />
+            <img src="./assets/images/Image 14.png" alt="" />
+            <img src="./assets/images/Image 15.png" alt="" />
+            <img src="./assets/images/image 16.png" alt="" />
+            <img src="./assets/images/image 17.png" alt="" />
+            <img src="./assets/images/Image 18.png" alt="" />
+            <img src="./assets/images/image 19.png" alt="" />
+            <img src="./assets/images/image 20.png" alt="" />
+          </div>
+          <!-- Tablet -->
+          <div class="image__gallery__tablet">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6 col-sm-12">
+                  <div class="image__gallery__tablet__item">
+                    <img src="./assets/images/image 12.png" alt="" />
+                  </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                  <div class="image__gallery__tablet__item">
+                    <img src="./assets/images/image 13.png" alt="" />
+                  </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                  <div class="image__gallery__tablet__item">
+                    <img src="./assets/images/image 14.png" alt="" />
+                  </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                  <div class="image__gallery__tablet__item">
+                    <img src="./assets/images/image 15.png" alt="" />
+                  </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                  <div class="image__gallery__tablet__item">
+                    <img src="./assets/images/image 16.png" alt="" />
+                  </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                  <div class="image__gallery__tablet__item">
+                    <img src="./assets/images/image 17.png" alt="" />
+                  </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                  <div class="image__gallery__tablet__item">
+                    <img src="./assets/images/image 18.png" alt="" />
+                  </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                  <div class="image__gallery__tablet__item">
+                    <img src="./assets/images/image 19.png" alt="" />
+                  </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                  <div class="image__gallery__tablet__item">
+                    <img src="./assets/images/image 20.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="footer__top">
+          <div class="container">
+            <div class="footer__top__border"></div>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="footer__bottom__item">
+                  <h3 class="footer__bottom__item__heading">Funiro.</h3>
+                  <p>
+                    Worldwide furniture store since 2020. We sell over 1000+
+                    branded products on our website
+                  </p>
+                  <p class="footer__location">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 384 512"
+                    >
+                      <path
+                        d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"
+                      />
+                    </svg>
+                    <span>Sawojajar Malang, Indonesia</span>
+                  </p>
+                  <p class="footer__phone">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 512 512"
+                    >
+                      <path
+                        d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"
+                      />
+                    </svg>
+                    <span>+6289 456 3455</span>
+                  </p>
+                  <p>www.funiro.com</p>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-4 col-sm-6">
+                <div class="footer__bottom__item">
+                  <h3 class="footer__bottom__item__heading">Menu</h3>
+                  <p>Products</p>
+                  <p>Rooms</p>
+                  <p>Inspirations</p>
+                  <p>About Us</p>
+                  <p>Terms & Policy</p>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-4 col-sm-6">
+                <div class="footer__bottom__item">
+                  <h3 class="footer__bottom__item__heading">Account</h3>
+                  <p>My Account</p>
+                  <p>Checkout</p>
+                  <p>My Cart</p>
+                  <p>My catalog</p>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-4 col-sm-6">
+                <div class="footer__bottom__item">
+                  <h3 class="footer__bottom__item__heading">Stay Connected</h3>
+                  <p>Facebook</p>
+                  <p>Instagram</p>
+                  <p>Twitter</p>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-6">
+                <h3 class="footer__bottom__item__heading">Stay Updated</h3>
+                <form class="footer__bottom__form" action="">
+                  <input
+                    type="text"
+                    name=""
+                    id=""
+                    placeholder="Enter your email"
+                  />
+                  <button class="stay__updated__buttom" type="submit">
+                    <img src="./assets/images/Vector.png" alt="" />
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+  <script src="./assets/js/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</html>
